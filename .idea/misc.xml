@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dr.ArpanRaval/AndroidStudioProjects/GeoMapper/app/src/main/res/layout/gt_collection_gps_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2046875" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/activity_login.xml" value="0.1793478260869565" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/activity_main.xml" value="0.12291666666666666" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/activity_splash.xml" value="0.12771739130434784" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/custom_progress_layout.xml" value="0.19010416666666666" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/fragment_dashboard.xml" value="0.17447916666666666" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/fragment_home.xml" value="0.15364583333333334" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/fragment_project.xml" value="0.22" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/gt_collection_project_layout.xml" value="0.18" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/gt_collection_sample_layout.xml" value="0.15364583333333334" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/project_cat_item.xml" value="0.18854166666666666" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/layout/project_item.xml" value="0.25" />
+        <entry key="..\:/android application/GeoMapper/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

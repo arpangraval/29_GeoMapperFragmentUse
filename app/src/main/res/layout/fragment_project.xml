@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.project.ProjectFragment"
+    android:background="@color/backgroundcolor_light"
+    android:orientation="vertical">
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5sp">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/project_cardview_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true">
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="@dimen/activity_horizontal_margin">
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:text="@string/title_project"
+                            android:textColor="@color/fontcolor"
+                            android:textSize="20dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/project_img_expand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:src="@drawable/ic_home_black_24dp"/>
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                </android.support.v7.widget.CardView>
+                <include
+                    android:id="@+id/include_expand_project"
+                    android:visibility="gone"
+                    layout="@layout/project_item"/>
+            </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/activity_horizontal_margin">
+            <android.support.v7.widget.CardView
+                android:id="@+id/project_cat_cardview_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true">
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_margin="@dimen/activity_horizontal_margin">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_project_cat"
+                        android:textSize="20dp"
+                        android:textColor="@color/fontcolor"
+                        />
+
+                    <ImageView
+                        android:id="@+id/project_cat_img_expand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:src="@drawable/ic_home_black_24dp"/>
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.CardView>
+            <include
+                android:id="@+id/include_expand_project_cat"
+                android:visibility="gone"
+                layout="@layout/project_cat_item"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.design.widget.NavigationView>
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GeoMapper</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_uname">User Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_project">Title</string>
+    <string name="prompt_cat_name">Category Name</string>
+    <string name="prompt_desc">Description</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="action_Submit">Submit</string>
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_project">Project</string>
+    <string name="title_project_cat">Project Category</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_project_title">Enter Project Title</string>
+    <string name="error_cat_title">Enter Category Title</string>
+    <string name="error_project_dec">Enter Project Dec</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="success_message">Registration Successful</string>
+</resources>

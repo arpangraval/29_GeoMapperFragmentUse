@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:background="@color/backgroundcolor_light"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/gt_collection_project_layout"
+        android:id="@+id/include_gt_project"
+        android:visibility="visible"/>
+    <include
+        layout="@layout/gt_collection_sample_layout"
+        android:id="@+id/include_gt_sample"
+        android:visibility="gone"/>
+</android.support.v7.widget.LinearLayoutCompat>
